@@ -15,3 +15,8 @@ let eat: boolean = true;
 
 let drink: boolean;
 drink = false
+
+// Any
+let food: any = "meatball"
+food = 97
+food = true
