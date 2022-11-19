@@ -3,3 +3,9 @@ let myName: string = "Vicky";
  
 let myLastName: string;
 myLastName = "Firmansyah";
+
+// Number
+let year: number = 2022;
+
+let month: number;
+month = 12;
