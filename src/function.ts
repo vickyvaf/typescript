@@ -26,3 +26,11 @@ function getFullName(firstName: string, middleName: string, lastName: string): s
 }
 
 const getMyName = getFullName("Vicky", "Adi", "Firmansyah");
+
+
+// Function sebagai tipe data
+type Decrease = (val1: number, val2: number) => number
+
+const decrease: Decrease = (val1: number, val2: number): number => {
+  return val1 - val2
+}
