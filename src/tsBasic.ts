@@ -1,1 +1,5 @@
-let myName: string = "Vicky"
+// String
+let myName: string = "Vicky";
+
+let myLastName: string;
+myLastName = "Firmansyah";
