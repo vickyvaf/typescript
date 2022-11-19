@@ -1,6 +1,6 @@
 // String
 let myName: string = "Vicky";
- 
+
 let myLastName: string;
 myLastName = "Firmansyah";
 
@@ -14,9 +14,14 @@ month = 12;
 let eat: boolean = true;
 
 let drink: boolean;
-drink = false
+drink = false;
 
 // Any
-let food: any = "meatball"
-food = 97
-food = true
+let food: any = "meatball";
+food = 97;
+food = true;
+
+// Union
+let phone: number | string;
+phone = 628123456789;
+phone = "08123456789";
