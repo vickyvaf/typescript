@@ -4,5 +4,5 @@ const addTwoNumbers = (a: number, b: number) => {
   return a + b;
 };
 
-const result = addTwoNumbers(1, 2);
-console.log(result);
+const result1 = addTwoNumbers(1, 2);
+console.log(result1);
