@@ -6,7 +6,7 @@
   "scripts": {
     "tsc": "rm -rf build/ && tsc",
     "ts": "rm -rf build/ && tsc -w",
-    "start": "nodemon ./dist/04-optional-params.problems.js"
+    "start": "nodemon ./dist/05-assigning-types-to-variable.problems.js"
   },
   "devDependencies": {
     "nodemon": "^2.0.20",
