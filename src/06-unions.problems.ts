@@ -19,7 +19,7 @@ interface User {
 
 type Role = "admin" | "user" | "super-admin";
 
-export const defaultUser: User = {
+const defaultUser: User = {
   id: 1,
   firstName: "vicky",
   lastName: "adi",
