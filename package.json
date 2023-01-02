@@ -6,7 +6,7 @@
   "scripts": {
     "tsc": "rm -rf build/ && tsc",
     "ts": "rm -rf build/ && tsc -w",
-    "start": "nodemon ./dist/08-function-type-return-annotations.problems.js"
+    "start": "nodemon ./dist/09-promises.problems.js"
   },
   "devDependencies": {
     "nodemon": "^2.0.20",
