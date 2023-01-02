@@ -1,0 +1,15 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/vickyvaf/typescript.git",
+  "author": "Vicky Adi Firmansyah <vickyadi243@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "yarn run build && node ./dist/index.js"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}
