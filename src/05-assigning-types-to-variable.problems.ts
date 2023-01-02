@@ -1,6 +1,6 @@
 // Assigning Types to Variables
 
-interface User {
+interface User5 {
   id: number;
   firstName: string;
   lastName: string;
@@ -16,16 +16,16 @@ interface User {
  * Menambahkan types ke variable
  */
 
-const defaultUser: User = {
+const defaultUser5: User5 = {
   id: 1,
   firstName: "vicky",
   lastName: "adi",
   isAdmin: true,
 };
 
-const getUserId = (user: User) => {
+const getUserId5 = (user: User5) => {
   return user.id;
 };
 
-const result5 = getUserId(defaultUser);
+const result5 = getUserId5(defaultUser5);
 console.log(result5);

@@ -1,6 +1,6 @@
 // Delineate Types a Value Can Be
 
-interface User {
+interface User6 {
   id: number;
   firstName: string;
   lastName: string;
@@ -19,11 +19,11 @@ interface User {
 
 type Role = "admin" | "user" | "super-admin";
 
-const defaultUser: User = {
+const defaultUser6: User6 = {
   id: 1,
   firstName: "vicky",
   lastName: "adi",
   role: "super-admin",
 };
 
-console.log(defaultUser);
+console.log(defaultUser6);
