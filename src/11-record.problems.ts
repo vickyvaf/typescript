@@ -2,11 +2,11 @@
 
 const createCache = () => {
   const cache: Record<string, string> = {};
-
+  
   const add = (id: string, value: string) => {
     cache[id] = value;
   };
-
+  
   const remove = (id: string) => {
     delete cache[id];
   };
@@ -21,6 +21,6 @@ const createCache = () => {
 const cache = createCache();
 
 cache.add("1", "LOL");
-cache.add("2", "LOL2")
+cache.add("2", "LOL2");
 
 console.log(cache.cache[2]);
